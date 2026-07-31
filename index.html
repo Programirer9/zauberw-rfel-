@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neon Cube Timer</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1>NEON CUBE TIMER</h1>
+        
+        <div id="timer">0.000</div>
+        
+        <p class="instruction">
+            Halte <strong>S</strong> + <strong>L</strong> gedrückt zum Vorbereiten.<br>
+            Lasse los, um die Zeit zu starten.<br>
+            Drücke <strong>Leertaste</strong> zum Stoppen.
+        </p>
+
+        <div class="stats-container">
+            <div class="record-box">
+                <h2>Persönlicher Rekord</h2>
+                <div id="personal-best">--.---</div>
+            </div>
+            <div class="history-box">
+                <h2>Letzte Zeiten</h2>
+                <ul id="history-list"></ul>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
